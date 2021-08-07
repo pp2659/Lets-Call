@@ -2,7 +2,12 @@
     package="com.example.lets_call_app"
     xmlns:tools="http://schemas.android.com/tools">
 
-   <application
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
        tools:replace="android:label"
        android:label="lets_call_app"
        android:icon="@mipmap/ic_launcher">
